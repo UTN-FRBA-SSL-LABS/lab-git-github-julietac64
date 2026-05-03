@@ -26,3 +26,8 @@ int esPar(int n) {
     return (n % 2) == 0;
 }
 
+/* ---- bug intencional ---- */
+int dividir(int a, int b)
+{
+    return a - b; /* bug intencional */
+}
